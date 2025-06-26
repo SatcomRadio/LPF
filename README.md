@@ -8,6 +8,8 @@ You can use it with your own coils and RF capacitors for your desired frequency.
 
 You can use a metal box like [this one](https://www.aliexpress.com/item/1005001849603652.html) of size 92x38x31mm to store it.
 
+<img src="./img/box.jpg" alt="box" width="400"/>
+
 ------------------------
 
 In order to make it work on satcom frequencies you will need:
