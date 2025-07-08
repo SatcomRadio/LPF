@@ -489,7 +489,7 @@
 				)
 			)
 		)
-		(property "Value" "12p"
+		(property "Value" "11p"
 			(at 0.05 -6.15 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -641,7 +641,7 @@
 				)
 			)
 		)
-		(property "Value" "12p"
+		(property "Value" "11p"
 			(at 0.05 -6.15 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1824,7 +1824,7 @@
 				)
 			)
 		)
-		(property "Value" "12p"
+		(property "Value" "11p"
 			(at 0.05 -6.15 90)
 			(unlocked yes)
 			(layer "F.Fab")

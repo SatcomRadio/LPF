@@ -15,13 +15,11 @@ You can use a metal box like [this one](https://www.aliexpress.com/item/10050018
 In order to make it work on satcom frequencies you will need:
 
 ```
-3x 12pF RF capacitors (https://www.aliexpress.com/item/1005004212044952.html)
+3x 11pF RF capacitors (https://aliexpress.com/item/1005006664008969.html)
 0.8mm enameled copper wire
 
 Optional: Storage box (https://www.aliexpress.com/item/1005001849603652.html)
 ```
-
-**You can also use 11pF capacitors if you want to reduce the S11 logmag but the attenuation at 600mhz will be lower**
 
 Schema:
 
@@ -43,7 +41,9 @@ Middle coils instructions:
 
 After adjusting with the nanovna you should be able to get this graph:
 
-<img src="./img/nanovna.jpg" alt="nanovna" width="600"/>
+<img src="./img/nanovna1.jpg" alt="nanovna" width="600"/>
+
+<img src="./img/nanovna2.jpg" alt="nanovna" width="600"/>
 
 ------------------------
 

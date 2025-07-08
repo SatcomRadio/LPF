@@ -162,17 +162,45 @@
 			)
 		)
 	)
-	(pad "1" smd rect
+	(pad "1" smd circle
 		(at 0 0)
-		(size 5 2.1)
+		(size 2.5 2.5)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "f8475b55-c967-4bb6-9860-f3e1f7ba067f")
 	)
-	(pad "2" smd rect
+	(pad "2" smd circle
 		(at 15 0)
-		(size 5 2.1)
+		(size 2.5 2.5)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "7084fb40-742e-4b3e-a9cb-46235a6ca0a1")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.Cu")
+		(uuid "dea26916-430a-4eb5-9062-d6f8d6b4a373")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks allowed)
+			(vias allowed)
+			(pads allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 0.9 -4.2) (xy 14.1 -4.2) (xy 14.1 4.2) (xy 0.9 4.2)
+			)
+		)
 	)
 	(model "${KICAD8_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Disc_D6.0mm_W4.4mm_P5.00mm.wrl"
 		(offset
